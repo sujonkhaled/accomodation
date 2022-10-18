@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* 
+a{text-decoration: none;}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url(back.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.top{
+    width: 100%;
+    height:150px;
+    background: rgba(193, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px ;
+
+}
+.logo-area{
+    width: 20%;
+
+}
+.logo-area a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-area a img{
+    width: 70px;
+}
+.logo-area a h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-left: 15px;
+}
+.menu-area{
+    width: 40%;
+}
+.menu-area ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-area ul li{
+   position: relative; 
+}
+.menu-area ul li::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background: aqua;
+    bottom: -10px;
+    left: 0;
+    transition: .5s all ease-in-out;
+}
+.menu-area ul li:hover::after{
+    width: 100%;
+}
+.menu-area ul li a{
+    color: white;
+    font-family: lato;
+    font-size: 12px;
+    transition: 0.3s all ease-in-out;
+}
+.menu-area ul li a:hover{
+color:aqua
+} */
+
+html, body{
+
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+
+.wrapper{
+
+    max-width: 390px;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px black;
+}
+
+.wrapper .tittle-text{
+
+    display: flex;
+    width: 200%;
+}
+
+.wrapper .tittle-text .title{
+
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .form-container{
+
+    width: 100%;
+
+}
+/* .form-container .form-inner form{
+
+    display: flex;
+    width: 200%;
+} */
+.form-container .form-inner form{
+   
+
+     
+}
+
+.form-inner form .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-inner form .field input{
+
+    height: 100%;
+    width: 100%; 
+    outline: none; 
+    padding-left: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px ;
+    transition: all 0.4s ease;
+}
+
+.form-inner form .Pass-link{
+    margin-top: 5px;
+
+}
+
+.form-inner form .Pass-link a,
+.form-inner form .signup-link a{
+
+    color: lightpink;
+    text-decoration: none;
+}
+.form-inner form .signup-link{
+
+    text-align: center;
+    margin-top: 30px;
+}
+.form-inner form .Pass-link a:hover,
+.form-inner form .signup-link a:hover{
+
+    text-decoration: underline;
+}
+
+form .field input[type="submit"]{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    border: none;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
